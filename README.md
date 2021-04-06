@@ -1,7 +1,4 @@
 # TMC-Staffing-and-Scheduling-Tool
-The TMC Staffing and Scheduling Tool features two parts: 
-1) The Shift Scheduling feature calculates the number of employees needed for each shift for each day, and also calculates the day on which each employee should start his or her work week. 
-2) The Relief Factor indicates how many employees it takes to fill a single job position, taking into account vacation, sick leave, training days, and other types of leave. 
 
 ## Installation
 This program requires the Java Runtime Environment (JRE). If you don't already have the JRE or a Java SDK installed, get the latest version of the **JRE 5.0 Update** from:
