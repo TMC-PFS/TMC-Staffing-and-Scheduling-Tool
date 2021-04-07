@@ -12,7 +12,8 @@ Double-click on **Staffing Tool.cmd.** The black console window that opens can b
 ## Using the tool
 The staffing tool has two parts: **Shift Scheduling** and **Relief Factor** calculations. These sections are accessed by clicking on the tabs at the top of the window. The two functions are independent; there is no interaction between them.
 
-Shift Scheduling
+## Shift Scheduling
+
 The tool requires you to define the hours worked for all shifts that operators may be assigned to, and input the demand (number of operators required) for each hour of each day of the week. The tool then calculates the number of employees needed for each shift for each day, and also calculates the day on which each employee should start his or her work week.
 
 Assumptions:
@@ -23,8 +24,10 @@ The algorithm on which this tool is based makes the following assumptions about 
 The numbers that appear above each column in the "Shift work hours" and "Number of operators required by day and hour" tables represent the hours of the day using a 24-hour clock (hour 0 is the midnight to 1 am hour; hour 12 is the noon to 1 pm hour).
 The Shift Scheduling Tab:
 
-Shift Scheduling Tab
+*Shift Scheduling Tab*
+
 **Inputs:**
+
 1. **Tabs** - Click the tabs to toggle between the Shift Scheduling interface and the Relief Factor interface.
 
 2. **Shift work hours** - Define shifts by selecting the checkboxes for the hours worked during the shift. Shifts can be any length and can have any pattern of hours worked. Click the Add button to add a new shift. Select one or more shifts and click the Remove button to delete the selected shift(s).
@@ -55,12 +58,13 @@ White fields are inputs.
 Yellow fields are outputs.
 
 **Inputs:**
+
 The relief factor depends on the average number of days off per employee, which is determined by the total days off for all employees and the number of employees included in that total. If the average is already known, enter it into **Total days off** and specify **1** for **Number of employees.**
 1. **Total days off** - The total number of days off for all employees.
 2. **Number of employees** - The number of employees included in the above total. Enter 1 if the total is actually the average.
 3. **Number of positions** - The number of positions which need to be staffed. This could be the number of employees calculated on the Shift Scheduling tab.
 
-Outputs:
+**Outputs:**
 
 4. **Average days off** - The average number of days off per employee. This is calculated as:
   Total days off / Number of employees
