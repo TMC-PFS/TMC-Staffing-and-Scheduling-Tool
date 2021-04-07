@@ -34,6 +34,7 @@ Shift Scheduling Tab
 4. **Save, Load and Calculate** - Click the Save... button to save the input data as a comma separated values (CSV) file. Click the Load... button to load previously saved input data. Click the Calculate button to calculate the outputs based on the current set of inputs.
 
 **Outputs:**
+
 5. **Status messages** - Various status messages appear here. If the outputs shown are based on the current input data, "Output is up to date." will be displayed. If the input data has changed since the last time the Calculate button was pressed, "Output is out of date. Click Calculate to update." will be displayed. If there is demand in a time period that is not covered by any shift work hours, "Specified demand cannot be satisfied by the specified shifts." will be displayed.
 
 6. **Employees needed for each day and shift** - Each cell shows the number of employees who need to be working on each shift on each day. Depending on the pattern of demand and the way the shifts are defined, some shifts may not have any employees assigned to them.
@@ -60,6 +61,7 @@ The relief factor depends on the average number of days off per employee, which 
 3. **Number of positions** - The number of positions which need to be staffed. This could be the number of employees calculated on the Shift Scheduling tab.
 
 Outputs:
+
 4. **Average days off** - The average number of days off per employee. This is calculated as:
   Total days off / Number of employees
 5.  **Relief factor** - The average number of employees that need to be hired to handle the workload of one position. This is calculated as:
