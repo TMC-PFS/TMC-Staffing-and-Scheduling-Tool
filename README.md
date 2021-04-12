@@ -66,7 +66,7 @@ The relief factor depends on the average number of days off per employee, which 
   Total days off / Number of employees
 5.  **Relief factor** - The average number of employees that need to be hired to handle the workload of one position. This is calculated as:
   365 / (365 - (Average days off))
-6. **Employees required** - The number of employees required to staff the number of positions given in 5. This is calculated as:
+6. **Employees required** - The number of employees required to staff the number of positions given in 3. This is calculated as:
   (Relief factor) * (Number of positions)
 
 ## Examples
