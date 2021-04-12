@@ -18,8 +18,8 @@ The tool requires you to define the hours worked for all shifts that operators m
 
 Assumptions:
 The algorithm on which this tool is based makes the following assumptions about demand and about employee schedules.
--Demand varies in a weekly cycle.
--All employees work five consecutive days, followed by two consecutive days off. The day on which an employee's work weeks starts is determined by the algorithm.
+- Demand varies in a weekly cycle.
+- All employees work five consecutive days, followed by two consecutive days off. The day on which an employee's work weeks starts is determined by the algorithm.
 
 The numbers that appear above each column in the "Shift work hours" and "Number of operators required by day and hour" tables represent the hours of the day using a 24-hour clock (hour 0 is the midnight to 1 am hour; hour 12 is the noon to 1 pm hour).
 The Shift Scheduling Tab:
