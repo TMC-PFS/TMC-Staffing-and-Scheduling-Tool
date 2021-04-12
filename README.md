@@ -24,7 +24,6 @@ The algorithm on which this tool is based makes the following assumptions about 
 The numbers that appear above each column in the "Shift work hours" and "Number of operators required by day and hour" tables represent the hours of the day using a 24-hour clock (hour 0 is the midnight to 1 am hour; hour 12 is the noon to 1 pm hour).
 The Shift Scheduling Tab:
 
-*Shift Scheduling Tab*
 
 **Inputs:**
 
@@ -53,9 +52,6 @@ The CSV files produced by this program can be opened in a spreadsheet program su
 ## Relief Factor
 The Relief Factor indicates how many employees it takes to fill a single job position, taking into account vacation, sick leave, training days, and other types of leave. The relief factor is expressed as a number, typically close to one, that represents the number of employees needed per position to be staffed.
 
-Relief Factor Tab
-White fields are inputs.
-Yellow fields are outputs.
 
 **Inputs:**
 
@@ -74,42 +70,4 @@ The relief factor depends on the average number of days off per employee, which 
   (Relief factor) * (Number of positions)
 
 ## Examples
-Shift Scheduling - Single day example:
-
-The inputs for this example are provided in the file **example1.csv.** You can either enter the data manually or load the file.
-This example shows how to calculate the staffing requirements for a single day with the following demand:
-
-Hour:	  0	1	 2	3	4	5	6	7	8	  9	 10 11
-Demand:	3	10 9	5	5	1	5	5	10	10 9	5
-Create four shifts and select the hours worked on each shift:
-
-Example 1 step 1
-
-Enter the demand into the table for Monday:
-
-Example 1 step 2
-
-Click on Calculate to determine the number of employees needed for each shift:
-
-Example 1 shift results
-
-The number of employees required for each shift is shown in the row for Monday. Since all employees work the same schedule but starting at different times, there will sometimes be more employees working during an hour than there is demand.
-
-Note that when multiple shifts can be used to cover the demand for a period, the algorithm randomly decides which shift to use to cover the demand. Therefore, clicking Calculate multiple times may result in slight variations in the outputs.
-
-Also note that since any work week that includes Monday will cover the demand, the employees may be assigned to start on any day that starts a work week that includes Monday:
-
-Example 1 work week results
-
-A start day is randomly chosen if there are multiple start days which provide equal coverage. In this case, all employees would work from Thursday to Monday.
-
-
-Shift Scheduling - Multiple day example:
-
-This example shows how to calculate a work schedule for a simple week-long case.
-This demand will require employees in two different shifts.
-
-Example 2
-The starting days for the two employees working shift 1 may be different, but they will always start two days apart so that they cover the whole week. One employee works Thursday-Monday while the other works Saturday-Wednesday.
-
-The employee working shift 2 starts Wednesday and finishes Sunday, providing coverage for the demand during hour 19 of Sunday.
+Please refer to the Documentation.html file for examples (with screenshots) of how to use the tool. 
