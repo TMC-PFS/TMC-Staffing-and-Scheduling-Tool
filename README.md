@@ -1,6 +1,6 @@
 # TMC-Staffing-and-Scheduling-Tool
 
-## View technical reports and supporting outreach material that may assist with using the tool on the NOCoE's [TMS Staffing and Operators page](https://transportationops.org/traffic-management-systems-and-centers/resources-traffic-management-system-and-centers/traffic-management-systems-and-centers//staffing-and-operators)
+## View technical reports and supporting outreach material that may assist with using the tool on the NOCoE's [Day-to-Day Management and Operation of TMSs and TMCs page](https://transportationops.org/traffic-management-systems-and-centers/resources-traffic-management-system-and-centers/traffic-management-systems-and-centers/day-day-management-and-operation-tmss-and-tmcs)
 
 ## Installation
 This program requires the Java Runtime Environment (JRE). If you don't already have the JRE or a Java SDK installed, get the latest version of the **JRE 5.0 Update** from:
